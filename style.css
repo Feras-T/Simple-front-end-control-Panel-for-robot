@@ -1,0 +1,40 @@
+*{
+	margin 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+header{
+
+}
+ul{
+	float: center ; 
+	list-style-type: none;
+	margin-top: 350px;
+	margin-left: 550px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: 
+	color: #999;
+	padding: 5px 20px;
+	border: 1px solid #999;
+}
+
+ul li a:hover{
+	background-color: #000;
+	color: #999;
+}
+ul li.active a{
+	background-color: #040;
+	color: #977;
+}
+
+.title{
+	position: absolute;
+	top: 30%;
+	left: 40%
+
+}
